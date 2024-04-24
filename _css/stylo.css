@@ -1,0 +1,173 @@
+/*Nave bar padronizada*/
+    body {
+     
+      font-family: Arial, sans-serif;
+    }
+
+    .barraDeNavegaçao {
+      overflow: hidden;
+      background-color: #020202;
+      
+    }
+
+    .barraDeNavegaçao a {
+      float: left;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .caimento {
+      float: left;
+      overflow: hidden;
+      
+    }
+
+    .caimento .botaodecair {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: #fff;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 20px;
+      
+    }
+
+    .barraDeNavegaçao a:hover,
+    .caimento:hover .botaodecair {
+      background-color: #706e6e;
+    }
+
+    .conteudoDeCaida {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 150px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+     
+    }
+
+    .conteudoDeCaida a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      width: 150px;
+      height: 60px;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .caimento:hover .conteudoDeCaida {
+      display: block;
+     
+    }
+
+    .login:last-child {
+      float: right;
+      margin-top: -40px;
+      margin-right: -300px;
+    }
+    .sobre{
+      margin-top: 20px;
+      
+    }
+ /*fim*/
+
+
+/*imagem de fundo, nome do Site,*/
+
+/* barra de pesquisa --bootstrep-- */
+
+  
+  
+ 
+  /*fim*/
+  .dois{
+    font-family:sans-serif;
+    justify-content: flex-start;
+    text-align: left;
+
+  }
+
+  /*barra de pesquisa*/
+  
+.barradepesquisa{
+  padding-top: 20px;
+  margin-left: 65%;
+  color:#2cee12;
+
+
+}
+.menuebarradepesquisa{
+  display: flex;
+}
+.d-flex{
+  margin-right: 200px;
+}
+.home{
+text-decoration: none;
+color: #29851d;
+margin: 10px;
+margin-left: 30px;
+margin-top: 30px;
+}
+/*
+.imagemS{
+  margin: 40px;
+  height: 10%;
+  padding: 80px; Para dar espaço entre as imagemP e a imagemS
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+*/
+
+/*serviços externos*/
+.servicos_externos{
+  height: 40px;
+  width: 200%;
+  margin: 5px;
+  border: 1px solid rgb(71, 110, 76);
+  border-radius: 5px;
+  display: flex;
+  margin-top: -375px;
+  margin-left: 325px;
+ z-index: 1;
+}
+.servicos_externos img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+a{
+  height: 40px;
+  width: 50%;
+  display: flex;
+}
+.servicos_externos img:hover{
+  border-bottom: 2px solid rgb(3, 54, 10);
+  transition: 0.3s;
+}
+
+/*fim*/
+
+
+footer{
+  margin-top: 60px;
+  text-align: center;
+  color:rgb(8, 8, 8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif 90px;
+}
+
+
