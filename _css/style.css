@@ -57,7 +57,7 @@ Quando o botão for clicado o cliente será redirecionado para pág... de descri
 /*Cards com as Propagandas dos restaurantes,
 pantos turísticos e transporte terrestres*/
 .items-3{
-  margin: 40px;
+  margin: 100px;
   margin-top: -300px;
     /*background: rgb(74, 155, 42);*/
     grid-row-start: 3/span 4;  
