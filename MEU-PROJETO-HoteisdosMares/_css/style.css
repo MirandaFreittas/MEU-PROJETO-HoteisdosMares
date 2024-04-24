@@ -1,0 +1,339 @@
+@charset "uft-8";
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*banner*/
+.img1p{
+  
+}
+.conteiner{
+/* gap: 5px; gap é para dar margem entre as linhas*/
+   display: grid;
+   grid-template-areas: 
+   "i1 i1"
+   "i2 i3"
+   "i4 i4"
+   "i5 i5";
+   grid-template-rows: 800px 1fr 90px; /* Primeiro - tamanho de nave bar  / Segundo - tamanho do corpo da pagina / Terceiro - tamanho do roda pé*/
+   height:100vh;
+   width:100vw;
+}
+
+/* blocos; esse espaço é onde vai ficar o conteudo da pág*/
+.items-1{
+   /*background: deeppink;
+   grid-column-start: 1;
+   grid-column-end: 4;*/
+   grid-column:1/ span 4;  
+  
+}
+.logodapagina{
+  align-items: center;
+  color: #135b7c;
+  margin-top: 50px;
+}
+.h1{
+  
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logodapagina{
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Cartões, aqui vai ficar a toto dos hotéis
+Nos cards ira conter informações sobre o lugar
+Quando o botão for clicado o cliente será redirecionado para pág... de descrição dos quartos e banheiros*/
+.items-2{
+  margin-top: -600px;
+    /*background: palegoldenrod;*/
+    grid-column:1/ span 3;
+    
+}
+
+
+/*Cards com as Propagandas dos restaurantes,
+pantos turísticos e transporte terrestres*/
+.items-3{
+  margin: 40px;
+  margin-top: -300px;
+    /*background: rgb(74, 155, 42);*/
+    grid-row-start: 3/span 4;  
+}
+
+
+
+/*fim*/
+
+.items-4{
+  margin-top: -100px;
+  grid-column:1/span 4;
+  
+
+}
+
+.logotexto{
+  align-items: center;
+  color: #135b7c;
+  margin-top: 50px;
+}
+.textoitems-4{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logotexto{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* cardes */
+
+.c-card{
+ padding: 1rem;
+ margin: 2rem;
+ color: #072f42;/*Cor das letras do texto*/
+ box-shadow:00 20px rgba(99, 93, 93 ,0.2);
+ display: flex;
+ justify-content: center;
+}
+
+.c-card img{
+  border-radius: 1rem;/* bordas das imagens(deixar elas mais redondas*/
+}
+
+.c-card p{
+  width: 20rem; /* Width: 20rem é a distancia que os cardes vão ficar uns dos outros*/
+  text-align:left;/* text-align: left é para colocar o testo para a esquerda*/
+  padding: 0.0rem;
+}
+.icone-midias{
+  font-size:1.5rem;
+  padding: 0.5rem;
+  color:#050505;
+
+}
+.icone-midias:hover{
+  color:rgb(253, 226, 15);
+}
+
+ /*fim*/
+/* Cards de propagandas*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property 
+to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;/*largura*/
+    height: 300px;/* Altura da imagem */
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(127, 138, 150);
+    color: white;
+    transform: rotateY(180deg);
+  }
+/*4- Produtos vendidos*/
+#section-vendidos{
+  text-align:center;
+}
+
+#section-vendidos h2{
+  font-weight: bold;
+  padding:20px;
+}
+
+#section-vendidos img{
+  height: 300px;
+  border-radius: 10px;
+  
+}
+
+#section-vendidos .card{
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+}
+
+#section-vendidos .preco{
+  color:rgb(42, 105, 22);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*cards*/
+
+.card-grupo{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+/*items-3, PAZ E AVENTURA, SÓ AQUI!*/
+.eueu{
+  margin-top: 350px;
+}
+
+.items-5{
+  margin-top: 200px;
+  grid-column:1/span 4;
+}
+.texto1{
+  text-align: center;
+ text-align:justify;
+ color: #28771e;
+ margin: 30px;
+}
+.ho{
+text-decoration: none;
+color: #28771e;
+margin: 30px;
+text-align: center;
+}
+
+/*barra de pesquisa*/
+
+/*mapa e imagens*/
+
+.imagem1{
+ margin-top: 90px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.imagem3{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.imagem4{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.imagens1{
+ 
+  margin-right: 5px;
+  margin: 5px;
+  width: 500px;/*imagem do hotel*/
+}
+.imags{
+  margin: 5px;
+}
+.image{
+  margin: 5px;
+}
+.mapaimagens{
+  margin-top: 60px;
+  display: flex;
+  margin-right: 50px;
+  
+}
+.mapa{
+  margin-left: 90px;
+  margin-top: 100px;
+
+}
+/*Roda pé*/
+.items-6{
+  /*background: rgb(190, 178, 42);*/
+  grid-column:1/ span 5;
+}
+
+/*texto da parte mapa, falta estilizar letras*/
+
+.tex12{
+  text-align: center;
+}
+.tex13{
+
+}
+.tex14{
+ 
+}
+/*Pagina de descrição dos comodos*/
+
+.imagem5{  
+  margin: 10px;
+}
+.imgtexto1{
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.imagem6{
+ margin:10px;
+
+}
+.imgtexto2{
+  margin-top:;
+  display: flex;
+  align-items: center;
+}
+
+.logodapagina2{
+  align-items: center;
+  color: #135b7c;
+  margin-top:-600px;
+}
+.logodapagina2{
+  display: flex;
+  justify-content: center;
+}
+.h1{ 
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*descrição das fotos*/
+.textodedescricao{
+  font-family:  serif;
+  color: #050505;
+}
+.textodedescricao1{
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.footer{
+  text-align: center;
+  flex-direction: column;
+}
