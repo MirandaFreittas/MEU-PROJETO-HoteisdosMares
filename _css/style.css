@@ -229,7 +229,7 @@ to demonstrate that the flip itself goes out of the box on hover (remove perspec
 }
 /*pagina de descrição dos comodos*/
 .conteudodadescrição{
-  margin-top: -200px;
+  margin-top: 200px;
 }
 
 
@@ -283,7 +283,7 @@ text-align: center;
   margin: 5px;
 }
 .mapaimagens{
-  margin-top: 60px;
+  
   display: flex;
   margin-right: 50px;
   
