@@ -227,6 +227,13 @@ to demonstrate that the flip itself goes out of the box on hover (remove perspec
   margin-top: 200px;
   grid-column:1/span 4;
 }
+/*pagina de descrição dos comodos*/
+.conteudodadescrição{
+  margin-top: -200px;
+}
+
+
+
 .texto1{
   text-align: center;
  text-align:justify;
