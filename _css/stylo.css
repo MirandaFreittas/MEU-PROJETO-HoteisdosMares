@@ -141,7 +141,7 @@ margin-top: 30px;
   border: 1px solid rgb(71, 110, 76);
   border-radius: 5px;
   display: flex;
-  margin-top: 375px;
+  margin-top: -375px;
   margin-left: 325px;
  z-index: 1;
 }
