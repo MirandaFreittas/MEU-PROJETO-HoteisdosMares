@@ -198,17 +198,6 @@ a{
   font-weight: 700;
   margin:0;
 }
-.input-group:hover{
-  width: 60;
-  display:flex;
-  justify-content: center;
-  align-items:center;
-  flex-direction:column;
-  padding:50px 55px;
-  background: #ca4646;
-  border-radius: 20px;
-  box-shadow: 0px 10px 40px #504e4e;
-}
 
 
 
