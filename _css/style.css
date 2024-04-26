@@ -29,7 +29,8 @@
    grid-column:1/ span 4;  
   
 }
-.logodapagina{
+/*items-2*/
+.logodapagina1{
   align-items: center;
   color: #135b7c;
   margin-top: 50px;
@@ -39,11 +40,26 @@
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.logodapagina{
+.logodapagina1{
   display: flex;
   justify-content: center;
 }
-
+/*items-5*/
+.logodapagina2{
+  align-items: center;
+  color: #135b7c;
+  margin-top: 50px;
+}
+.h1{
+  
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logodapagina2{
+  display: flex;
+  justify-content: center;
+}
+/*fim*/
 
 /*Cartões, aqui vai ficar a toto dos hotéis
 Nos cards ira conter informações sobre o lugar
@@ -216,6 +232,13 @@ to demonstrate that the flip itself goes out of the box on hover (remove perspec
   margin-top: 50px;
   grid-column:1/span 4;
 }
+/*pagina de descrição dos comodos*/
+.conteudodadescrição{
+  margin-top: 200px;
+}
+
+
+
 .texto1{
   text-align: center;
  text-align:justify;
@@ -271,7 +294,7 @@ text-align: center;
   margin: 5px;
 }
 .mapaimagens{
-  margin-top: 60px;
+  
   display: flex;
   margin-right: 50px;
   
@@ -292,12 +315,7 @@ text-align: center;
 .tex12{
   text-align: center;
 }
-.tex13{
 
-}
-.tex14{
- 
-}
 /*Pagina de descrição dos comodos*/
 
 /*item-7 é o corpo da pagina de descrição*/
