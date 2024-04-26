@@ -3,7 +3,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 /*banner*/
-
+.img1p{
+  
+}
 .conteiner{
 /* gap: 5px; gap é para dar margem entre as linhas*/
    display: grid;
@@ -11,7 +13,9 @@
    "i1 i1"
    "i2 i3"
    "i4 i4"
-   "i5 i5";
+   "i5 i5"
+   "i6 i6"
+   "i7 i7";
    grid-template-rows: 800px 1fr 90px; /* Primeiro - tamanho de nave bar  / Segundo - tamanho do corpo da pagina / Terceiro - tamanho do roda pé*/
    height:100vh;
    width:100vw;
@@ -71,18 +75,19 @@ Quando o botão for clicado o cliente será redirecionado para pág... de descri
 /*Cards com as Propagandas dos restaurantes,
 pantos turísticos e transporte terrestres*/
 .items-3{
-  margin: 100px;
-  margin-top: -100px;
+  margin: 40px;
+  margin-top: -300px;
     /*background: rgb(74, 155, 42);*/
     grid-row-start: 3/span 4;  
 }
 
-
-
+.texto-car{
+  color: #011b27;
+}
 /*fim*/
 
 .items-4{
-  margin-top: -100px;
+  margin-top: -200px;
   grid-column:1/span 4;
   
 
@@ -224,7 +229,7 @@ to demonstrate that the flip itself goes out of the box on hover (remove perspec
 }
 
 .items-5{
-  margin-top: 200px;
+  margin-top: 50px;
   grid-column:1/span 4;
 }
 /*pagina de descrição dos comodos*/
@@ -276,6 +281,12 @@ text-align: center;
   margin: 5px;
   width: 500px;/*imagem do hotel*/
 }
+.imagens9{
+ 
+  margin-right: 5px;
+  margin: 5px;
+  width: 400px;/*imagem do hotel*/
+}
 .imags{
   margin: 5px;
 }
@@ -307,11 +318,19 @@ text-align: center;
 
 /*Pagina de descrição dos comodos*/
 
+/*item-7 é o corpo da pagina de descrição*/
+.items-7{
+  margin-top:0px;
+    /*background: palegoldenrod;*/
+    grid-column:1/ span 3;
+    
+}
 .imagem5{  
   margin: 10px;
 }
 .imgtexto1{
-  margin-top: 90px;
+  margin: 10px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
 }
@@ -321,7 +340,7 @@ text-align: center;
 
 }
 .imgtexto2{
-  margin-top:20px;
+  margin-top:50px;
   display: flex;
   align-items: center;
 }
@@ -329,7 +348,7 @@ text-align: center;
 .logodapagina2{
   align-items: center;
   color: #135b7c;
-  margin-top:-600px;
+  margin-top:-50px;
 }
 .logodapagina2{
   display: flex;
@@ -339,6 +358,25 @@ text-align: center;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+.quarto3{
+  text-align: center;
+  flex-direction: column;
+  color: #135b7c;
+ 
+}
+.quarto3{
+ 
+  justify-content: center;
+}
+.quarto3{ 
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
 /*descrição das fotos*/
 .textodedescricao{
   font-family:  serif;
@@ -346,10 +384,25 @@ text-align: center;
 }
 .textodedescricao1{
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+.items-8{
+  margin-top:-250px;
+    /*background: palegoldenrod;*/
+    grid-column:1/ span 3;
+    
+}
+.items-9{
+  
+    /*background: rgb(74, 155, 42);*/
+    grid-row-start: 3/span 4; 
 }
 
 .footer{
   text-align: center;
   flex-direction: column;
+}
+
+.baixo{
+  margin-top: 100px;
 }
