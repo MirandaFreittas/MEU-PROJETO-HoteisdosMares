@@ -66,10 +66,13 @@
 .reserva{
 
   width: 350px;
+  align-items: center;
   margin-left: 900px;
 
 }
-
+.reservatexto{
+  text-align: center;
+}
 /*items-5*/
 .logodapagina2{
   align-items: center;
