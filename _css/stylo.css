@@ -162,6 +162,56 @@ a{
 
 /*fim*/
 
+/*formulario*/
+
+.grupo{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px;
+  width: 10vw;
+  height: 100;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 800px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin:10px 0px;
+}
+.input-box:a{
+  width: 100%;
+  border:none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #ca4646;
+}
+.input-group{
+  color:#053461;
+  font-weight: 700;
+  margin:0;
+}
+.input-group:hover{
+  width: 60;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  padding:30px 35px;
+  background: #ca4646;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #504e4e;
+}
+
+
+
+
+
 
 footer{
   margin-top: 60px;
