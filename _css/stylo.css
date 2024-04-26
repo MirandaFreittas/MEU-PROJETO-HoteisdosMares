@@ -162,6 +162,14 @@ a{
 
 /*fim*/
 
+
+
+
+
+
+
+
+
 /*formulario*/
 
 .grupo{
@@ -184,13 +192,7 @@ a{
   justify-content: center;
   margin:10px 0px;
 }
-.input-box:a{
-  width: 100%;
-  border:none;
-  border-radius: 10px;
-  padding: 15px;
-  background: #ca4646;
-}
+
 .input-group{
   color:#053461;
   font-weight: 700;
