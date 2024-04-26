@@ -62,7 +62,10 @@
   display: flex;
   justify-content: center;
 }
-
+/*botão reserva*/
+.reserva{
+  width: 150px;
+}
 
 /*items-5*/
 .logodapagina2{
