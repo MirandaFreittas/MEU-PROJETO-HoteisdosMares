@@ -44,6 +44,23 @@
   display: flex;
   justify-content: center;
 }
+/*texto e logo de descrição*/
+.logodapagina1{
+  align-items: center;
+  color: #135b7c;
+  margin-top: 50px;
+}
+.h1{
+  
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logodapagina1{
+  display: flex;
+  justify-content: center;
+}
+
+
 /*items-5*/
 .logodapagina2{
   align-items: center;
