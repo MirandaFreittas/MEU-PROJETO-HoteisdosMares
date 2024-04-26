@@ -65,13 +65,14 @@
 /*botão reserva*/
 .reserva{
 
+  width: 350px;
  
-  align-items: center;
   margin-left: 900px;
 
 }
 .reservatexto{
   text-align: center;
+  margin-top: -10px;
 }
 /*items-5*/
 .logodapagina2{
