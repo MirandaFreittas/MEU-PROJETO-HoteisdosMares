@@ -44,11 +44,14 @@
   display: flex;
   justify-content: center;
 }
+
+
+
 /*texto e logo de descrição*/
 .logodapagina24{
   align-items: center;
   color: #135b7c;
-  margin-top: 50px;
+  margin-top: -150px;
 }
 .h1{
   
