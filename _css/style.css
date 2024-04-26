@@ -99,7 +99,12 @@ Quando o botão for clicado o cliente será redirecionado para pág... de descri
     grid-column:1/ span 3;
     
 }
-
+.items2{
+  margin-top: -300px;
+    /*background: palegoldenrod;*/
+    grid-column:1/ span 3;
+    
+}
 
 /*Cards com as Propagandas dos restaurantes,
 pantos turísticos e transporte terrestres*/
