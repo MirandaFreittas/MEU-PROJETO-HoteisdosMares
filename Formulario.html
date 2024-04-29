@@ -187,8 +187,10 @@
    
            <js>
                <input type="submit" value="Enviar" type= "f_cadastro" onclick="alert('Reserva realizada com sucesso.');">
-              
-           
+               var sair = confirm("Deseja ir para página do google");
+               if(sair == 1){
+                window.location = "http://www.google.com.br";
+                }
        </js>
                   </div>
                </form>
