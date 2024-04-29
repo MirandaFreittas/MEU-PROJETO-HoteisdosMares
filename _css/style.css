@@ -452,7 +452,7 @@ text-align: center;
 pantos turísticos e transporte terrestres*/
 .items-10{
   margin: 40px;
-  margin-top: -300px;
+  margin-top: 300px;
     /*background: rgb(74, 155, 42);*/
     grid-row-start: 3/span 4;  
 }
