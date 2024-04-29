@@ -445,3 +445,12 @@ color: #28771e;
 margin-left: 900px;
 text-align: center;
 }
+/*esse é o items-3 que virou o items-10 */
+/*Cards com as Propagandas dos restaurantes,
+pantos turísticos e transporte terrestres*/
+.items-10{
+  margin: 40px;
+  margin-top: -150px;
+    /*background: rgb(74, 155, 42);*/
+    grid-row-start: 3/span 4;  
+}
