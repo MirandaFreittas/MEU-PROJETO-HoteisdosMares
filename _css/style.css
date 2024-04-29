@@ -438,3 +438,10 @@ text-align: center;
 .baixo{
   margin-top: 100px;
 }
+
+.inicio{
+  text-decoration: none;
+color: #28771e;
+margin: 30px;
+text-align: center;
+}
