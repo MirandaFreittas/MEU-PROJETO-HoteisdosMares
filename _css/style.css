@@ -464,10 +464,20 @@ pantos turísticos e transporte terrestres*/
   margin-top: -200px;
 }
 .sevillana-regular {
-    font-family: "Sevillana", cursive;
+  
+    font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
   }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  
   
   
 }
