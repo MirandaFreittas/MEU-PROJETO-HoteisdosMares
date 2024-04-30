@@ -268,7 +268,10 @@ to demonstrate that the flip itself goes out of the box on hover (remove perspec
 .conteudodadescrição{
   margin-top: 200px;
 }
-
+.items5{
+  margin-top: 50px;
+  grid-column:1/span 4;
+}
 
 
 .texto1{
