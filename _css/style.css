@@ -479,9 +479,7 @@ pantos turísticos e transporte terrestres*/
   .abril-fatface-regular {
       font-family: "Cinzel", serif;
       font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-
+      font-weight: weight;
         width: 800px;
         font-weight: 400;
         font-style: normal;
