@@ -477,12 +477,11 @@ pantos turísticos e transporte terrestres*/
   }
   
   .abril-fatface-regular {
-      font-family: "Abril Fatface", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-weight: 400;
+      font-family: "Cinzel", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
       font-style: normal;
     }
-    
-  
   
   
   
