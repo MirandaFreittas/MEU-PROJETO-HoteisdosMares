@@ -268,10 +268,7 @@ to demonstrate that the flip itself goes out of the box on hover (remove perspec
 .conteudodadescrição{
   margin-top: 200px;
 }
-.items5{
-  margin-top: 100px;
-  grid-column:1/span 4;
-}
+
 
 
 .texto1{
@@ -458,7 +455,4 @@ pantos turísticos e transporte terrestres*/
   margin-top: -200px;
     /*background: rgb(74, 155, 42);*/
     grid-row-start: 3/span 4;  
-}
-.pro{
-  margin-top: -200px;
 }
